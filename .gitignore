@@ -1,0 +1,13 @@
+# Bỏ file .exe (chạy được)
+*.exe
+
+# Bỏ file biên dịch trung gian
+*.o
+*.obj
+*.dll
+*.log
+
+# Bỏ file tạm của editor/IDE
+*.vscode/
+*.vs/
+*.idea/
