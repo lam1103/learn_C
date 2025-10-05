@@ -15,7 +15,7 @@ struct Task {
     enum STATUS status;
 };
 
-void addTask(struct Task* tasks, int* taskCount, const char* name, time_t created_at, time_t due_date);
+void addTask(struct Task* tasks, int *taskCount);
 
 #endif
 void displayMenu(struct Task* tasks, int* taskCount);

@@ -7,9 +7,9 @@
 int main() {
     float radius;
     printf("input radius: ");
-    scanf("%f", &radius);
-    float surface_area = 4 * PI * pow(radius, 2);
+    scanf("%f", &radius); PI * pow(radius, 2);
     float volume = (4.0 / 3.0) * PI * pow(radius, 3);
+    float surface_area = 4 * PI * pow(radius, 2);
     printf("result surface area: %.2f\n", surface_area);
     printf("result volume: %.2f\n", volume);
     return 0;

@@ -5,10 +5,10 @@ int main() {
     int b;
     float c; 
     double d;
-    printf("Nhap vao mot ky tu: ");
+     printf("Nhap vao mot ky tu: ");
     scanf(" %c", &a);
     printf("Ky tu vua nhap: %c\n", a);
-    
+
     printf("Nhap vao mot so nguyen: ");
     scanf("%d", &b);
     printf("So nguyen vua nhap: %d\n", b);

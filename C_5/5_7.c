@@ -12,6 +12,7 @@ int main() {
     scanf("%f", &y);
     printf("Nhap z: ");
     scanf("%f", &z);
-    F = ((x + y + sqrt(z)) / (pow(x, 2) + pow(y, 2) + 1)) - (sin(x) - z*cos(y));
+    float ttd = sin(x) - z * cos(y);
+    F = ((x + y + sqrt(z)) / (pow(x, 2) + pow(y, 2) + 1)) - fabs(ttd);
     printf("Gia tri F la: %.2f", F);
 }
