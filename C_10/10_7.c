@@ -1,4 +1,6 @@
+
 #include <stdio.h>
+#include <stdlib.h>
 
 // Hàm hoán đổi 2 số
 void swap(int *x, int *y) {
